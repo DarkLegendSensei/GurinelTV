@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GurinelTV</title>
+    <link rel="icon" href="images/icon1.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+
+
+</head>
+
+<body>
+    <button onclick="topFunction()" id="Button" title="Mergi în top">Top</button>
+    <header>
+        <img class="header-logo" src="images/icon3.png">
+        <navbar>
+            <a href="" class="active">Acasă</a>
+            <a href="pages/despre_noi.html" class="unactive">Despre Noi</a>
+            <a href="pages/video_muzica.html" class="unactive">Video</a>
+            <a href="pages/contacte.html" class="unactive">Contacte</a>
+            <p href="" class="right1">Prima televiziune a copiilor din Moldova!</p>
+
+        </navbar>
+
+        <div class="burger-menu">
+            <input type="checkbox" id="burger-toggle" class="input1">
+            <label for="burger-toggle" class="burger-icon"><span></span></label>
+            <nav class="burger-nav">
+                <ul>
+                    <li><a href="#">Acasă</a></li>
+                    <li><a href="pages/despre_noi.html">Despre Noi</a></li>
+                    <li><a href="pages/video_muzica.html">Video</a></li>
+                    <li><a href="pages/contacte.html">Contacte</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+
+        <section class="main_video">
+            <video class="video1" autoplay muted loop>
+                <source src="video/acasa_video_container.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <img src="./images/gurineltv1.png" alt="" class="resolution">
+            <h3>Ne poți privi de la 06:00 pana la 00:00</h3>
+        </section>
+
+
+
+        <section class="div_info" id="index_info">
+            <p>
+                În anul 2012, Societatea cu Răspundere Limitată „Gurinel Media” a solicitat și a primit din partea
+                Consiliului Audiovizualului licență de emisie pentru postul
+                de televiziune Gurinel TV. GurinelTV astăzi este unicul post tv din țară destinat copiilor și se bucură
+                de popularitate în rândul acestora.
+            </p>
+                <a class="link_button" type="button" href="pages/despre_noi.html">Află mai mult</a>
+        </section>
+
+
+        <div class="slide_show">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="images/slide1.jpg"></div>
+                    <div class="swiper-slide"><img src="images/slide2.jpg"></div>
+                    <div class="swiper-slide"><img src="images/slide3.jpg"></div>
+                    <div class="swiper-slide"><img src="images/slide4.jpg"></div>
+                    <div class="swiper-slide"><img src="images/slide5.jpg"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+
+
+
+        <section class="index_videouri">
+            <h2>O mulțime de copii talentați de toate vârstele</h2>
+
+
+            <iframe class="video_index" src="https://www.youtube.com/embed/txAM2-pJums" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+            <iframe class="video_index" src="https://www.youtube.com/embed/TNX_MnaNmwM" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+            <iframe class="video_index" src="https://www.youtube.com/embed/yxibXESurTg" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+            <iframe class="video_index" src="https://www.youtube.com/embed/Lua8zgWtQ9g" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+            <iframe class="video_index" src="https://www.youtube.com/embed/je1MfNyneVU" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+            <iframe class="video_index" src="https://www.youtube.com/embed/8j7IGuYjxCQ" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+                <a class="link_button" type="button" href="pages/video_muzica.html">Mai multe videouri muzicale</a>
+        </section>
+
+    </main>
+
+
+
+    <footer>
+        <table class="footer_table">
+            <tr>
+                <td><a href="https://www.facebook.com/gurineltv"><img class="footer_logo"
+                            src="images/facebook_logo.png"></a></td>
+                <td><a href="https://www.tiktok.com/@gurineltv1"><img class="footer_logo"
+                            src="images/tiktok_logo.png"></a></td>
+                <td><a href="https://www.instagram.com/gurinel_tv/"><img class="footer_logo"
+                            src="images/instagram_logo.png"></a></td>
+                <td><a href="https://www.youtube.com/@GurinelTV"><img class="footer_logo"
+                            src="images/youtube_logo.png"></a></td>
+            </tr>
+        </table>
+    </footer>
+
+
+    <script src="script/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+
+        });
+    </script>
+</body>
+
+</html>
